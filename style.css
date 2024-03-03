@@ -161,3 +161,23 @@ body button:hover {
         align-items: center;
         justify-content: center;
     }
+
+    @media screen and (max-width: 400px) {
+        dialog .dialog-main input { 
+            width:200px;
+            height:25px;
+        
+        }
+        
+        .dialog-main button {
+            height: 25px;
+            padding: 2px;
+            border-radius: 4px;
+            background-color:#2355F2;
+            border: none;
+            color:#F5F7FA;
+            font-weight: 600;
+            font-size: 0.6rem;
+            width:80px;
+    }
+}

@@ -1,0 +1,163 @@
+html {
+    overflow-x: hidden;
+}
+body {
+    background-image: url(./Assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+dialog {
+    padding: 0;
+    border: none;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.dialog-top {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #2355F2;
+    background-image: url(./Assets/Pattern.png);
+    border-radius: 10px 10px 0 0;
+    height: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-top i {
+    position: absolute;
+    right:10px;
+    top: 10px;
+    transform: scale(1.4);
+    color:whitesmoke;
+}
+
+.dialog-top i:hover {
+    transform: scale(1.6);
+    transition: 300ms ease-in;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color:whitesmoke; 
+    padding: 10px;
+    width: 60%;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    color:#807f7f;
+    padding: 30px;
+    width: 70%;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.dialog-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dialog-main input {
+    border: 0.5px solid  #bebebf ;
+    padding: 0;
+    background-color: #F5F7FA; 
+    width: 250px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.dialog-main button {
+    height: 35px;
+    padding:10px;
+    border-radius: 4px;
+    background-color:#2355F2;
+    border: none;
+    color:#F5F7FA;
+    font-weight: 600;
+    font-size: 0.7rem;
+    width:100px;
+}
+
+.dialog-main button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 300ms ease-in;
+}
+
+.input p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #bebebf ;
+}
+
+.phrase {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+}
+
+.name p {
+    margin: 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.citation {
+    text-align: center;
+    color: #807f7f;
+    height: 110px;
+    width: 350px;
+    margin:0 auto;
+    font-size: 0.8rem;
+    padding: 10px 0 0px 0;
+}
+
+body button {
+    height: 45px;
+    padding:10px;
+    border-radius: 10px;
+    background-color:#2355F2;
+    border: none;
+    color:#F5F7FA;
+    font-weight: 600;
+    font-size: 1.2rem;
+    width:150px;
+}
+
+body button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 300ms ease-in;
+
+    } 
+    body {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
